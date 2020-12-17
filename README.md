@@ -8,4 +8,4 @@ This was our final project for the Villanova course: Senior Projects. We had 4 s
 
 The app.R code is for the shiny application itself.
 
-All csv files were created calling the NBASTATR library (found here: https://github.com/abresler/nbastatR) and them manipulating that data to get the final chart we watnted. That dataframe was then converted to a csv file so that our shiny app would not have to call the library every time a chart was generated.
+All csv files were created calling the NBASTATR library (found here: https://github.com/abresler/nbastatR) which would return a large dataframe. I manipulated that data to get the final chart I wanted. That dataframe was then converted to a csv file so that our shiny app would not have to call the library every time a chart was generated.
